@@ -35,7 +35,7 @@ def get_openai_key():
 
     openai_key = os.getenv("OPENAI_API_KEY")
     if openai_key is None:
-        print("Error: OPENAI_API_KEY environment variable not set.")
+        print("Error: OPENAI_API_KEY environment variable not set!")
         exit(1)
 
     return openai_key
